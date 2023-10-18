@@ -11,7 +11,7 @@ Etant donné le caractère non éliminatoire de l'épreuve, je me suis permis qu
   - Etant donné l'exercice, j'ai évité de m'imposer certaines contraintes "inutiles", donc il suffit de déposer un fichier texte type de l'exemple donné par mail dans resources/batch/input
 pour qu'il soit transformé dans ..../output/csv (.csv) et déplacé dans ..../output/done (.txt) afin de garder sa trace
   - __Les output sont générés dans le dossier target. Selon la sécurité du disque, le programme n'aurait potentiellement pas eu de droit d'écriture, et ça aurait été embêtant pour tester l'ex.2__
-  - A ne pas trop brusquer, la gestion des erreurs est 'très simple', l'idée était surtout d'ajouter un scheduler à l'exercice histoire de ne pas faire 2 fois une API similaire (qui aurait pris un MultipartFile en parametre, etcetc). 
+  - A ne pas trop brusquer, la gestion des erreurs est 'très simple', l'idée était surtout d'ajouter un scheduler à l'exercice histoire de ne pas faire 2 fois une API similaire (qui aurait pris un MultipartFile en parametre, etcetc). Un fichier exemple.txt a été ajouté, il sera automatiquement consommé lors du premier lancement !
   - J'ai choisi de faire un batch (il tourne au lancement, et chaque minute), mais je l'ai initialement codé pour l'API, d'où les deux TUs commentés dans ArrowsApiRestControllerTest
 
 - J'ai gardé une architecture hexagonale car je trouve ça très simple à lire
