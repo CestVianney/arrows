@@ -1,5 +1,5 @@
 - - -
-<p style="text-align: center; font-size:35px; font-weight: bold">Read me !</p>
+#Read me !
 
 - - -
 
@@ -7,7 +7,7 @@ Les exercices ont été tous effectués suivant l'énoncé fourni dans le mail.
 
 Etant donné le caractère non éliminatoire de l'épreuve, je me suis permis quelques libertés dans le rendu :
 - Je n'ai appliqué la gestion des erreurs (throw exception) que dans l'API Post /arrows ; dans le cas du fichier .txt, j'ai préféré afficher 0 points (comme dans les documents en exemple)
-- Pour transformer le .txt en csv (en y appliquant le traitement pour calculer les points), il était possible de s'y prendre de plusieurs manières, notamment via une API ou par exemple.. étant donné qu'on a déjà une API Post pour le json, j'ai choisi de faire un batch pour le fichier .txt
+- Pour transformer le .txt en csv (en y appliquant le traitement pour calculer les points), il était possible de s'y prendre de plusieurs manières, notamment via une API... cependant, étant donné qu'on a déjà une API Post pour le json, j'ai choisi de faire un batch
 - - Etant donné l'exercice, j'ai évité de m'imposer certaines contraintes "inutiles", donc il suffit de déposer un fichier texte type de l'exemple donné par mail dans resources/batch/input
 pour qu'il soit transformé dans ..../output/csv (.csv) et déplacé dans ..../output/done (.txt) afin de garder sa trace
 - - __Les output sont générés dans le dossier target. Selon la sécurité du disque, le programme n'aurait potentiellement pas eu de droit d'écriture, et ça aurait été embêtant pour tester l'ex.2__
